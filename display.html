@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- block -->
+    <a href="#" style="display: block; background-color: lightcoral; color: white; padding: 15px; text-align: center; width: 200px; margin: 0 auto;">
+        Clickable Block Button
+    </a>
+    <!-- inline display -->
+    <ul style="background-color: lightgrey; padding: 10px;">
+        <li style="display: inline; margin-right: 10px; background-color: coral; padding: 5px;">Item 1</li>
+        <li style="display: inline; margin-right: 10px; background-color: lightgreen; padding: 5px;">Item 2</li>
+        <li style="display: inline; background-color: lightblue; padding: 5px;">Item 3</li>
+    </ul>
+    <!-- inline block -->
+    <div style="text-align: center; background-color: lightgrey; padding: 10px;">
+        <div style="display: inline-block; background-color: coral; padding: 20px; margin: 5px;">Item 1</div>
+        <div style="display: inline-block; background-color: lightgreen; padding: 20px; margin: 5px;">Item 2</div>
+        <div style="display: inline-block; background-color: lightblue; padding: 20px; margin: 5px;">Item 3</div>
+    </div>
+    <!-- display none -->
+    <div id="message" style="background-color: lightcoral; padding: 10px;">This message can be hidden!</div>
+    <button onclick="document.getElementById('message').style.display = 'none';">Hide Message</button>
+<!-- display flex -->
+<div style="display: flex; flex-direction: column; min-height: 100vh;">
+    <header style="background-color: coral; padding: 10px;">Header</header>
+    <main style="flex: 1; background-color: lightgrey; padding: 10px;">Main Content</main>
+    <footer style="background-color: lightblue; padding: 10px;">Sticky Footer</footer>
+</div>
+<!-- display grid -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px;">
+    <div style="background-color: lightcoral; padding: 50px;">Image 1</div>
+    <div style="background-color: lightgreen; padding: 50px;">Image 2</div>
+    <div style="background-color: lightblue; padding: 50px;">Image 3</div>
+    <div style="background-color: lightgrey; padding: 50px;">Image 4</div>
+</div>
+<!-- display table -->
+<div style="display: table; width: 100%; background-color: lightblue;">
+    <div style="display: table-row;">
+        <div style="display: table-cell; padding: 10px; background-color: coral;">Cell 1</div>
+        <div style="display: table-cell; padding: 10px; background-color: lightgreen;">Cell 2</div>
+        <div style="display: table-cell; padding: 10px; background-color: lightcoral;">Cell 3</div>
+    </div>
+    <div style="display: table-row;">
+        <div style="display: table-cell; padding: 10px; background-color: lightgrey;">Cell 4</div>
+        <div style="display: table-cell; padding: 10px; background-color: lightblue;">Cell 5</div>
+        <div style="display: table-cell; padding: 10px; background-color: lightpink;">Cell 6</div>
+    </div>
+</div>
+
+</body>
+</html>

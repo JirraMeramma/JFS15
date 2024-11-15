@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+           width: 200px;
+           height: 100px;
+           background: burlywood;
+           transition: width 2s ;
+        }
+        div:hover{
+           width: 300px;
+        }
+        div1{
+            transition-timing-function: linear;
+        }
+        div2{
+            transition-timing-function: ease;
+        }
+        div3{
+            transition-timing-function: ease-in;
+        }
+        div4{
+            transition-timing-function: ease-out;
+        }
+        div5{
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition means to change the property</h1>
+    <!-- transition -->
+    <div></div><br>
+    <!-- linear -->
+    <div id="div1">linear</div><br>
+    <!-- ease -->
+    <div id="div2">ease</div><br>
+    <!-- ease-in -->
+    <div id="div3">ease-in</div><br>
+    <!-- ease-out -->
+    <div id="div4">ease-out</div><br>
+    <!-- ease-in-out -->
+    <div id="div5">ease-in-out</div><br>
+
+    
+</body>
+</html>
